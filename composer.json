@@ -18,8 +18,12 @@
         "symfony/monolog-bundle": "~2.4",
         "sensio/distribution-bundle": "~3.0,>=3.0.12",
         "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
+<<<<<<< HEAD
         "incenteev/composer-parameter-handler": "~2.0",
 		"avanzu/admin-theme-bundle": "~1.3"
+=======
+        "incenteev/composer-parameter-handler": "~2.0"
+>>>>>>> 2333dda4d279fce73f722432e8b2632f43449b15
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"

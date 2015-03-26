@@ -17,7 +17,10 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new AppBundle\AppBundle(),
+<<<<<<< HEAD
             new Avanzu\AdminThemeBundle\AvanzuAdminThemeBundle(),
+=======
+>>>>>>> 2333dda4d279fce73f722432e8b2632f43449b15
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
