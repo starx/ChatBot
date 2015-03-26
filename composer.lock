@@ -4,6 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "hash": "61fead31ee13dff608c96e217f2c3151",
     "packages": [
         {
@@ -52,6 +53,11 @@
             "time": "2015-03-21 14:47:51"
         },
         {
+=======
+    "hash": "928cf07615062470571573abc0843fa6",
+    "packages": [
+        {
+>>>>>>> 2333dda4d279fce73f722432e8b2632f43449b15
             "name": "doctrine/annotations",
             "version": "v1.2.3",
             "source": {
@@ -1042,17 +1048,30 @@
         },
         {
             "name": "sensio/distribution-bundle",
+<<<<<<< HEAD
             "version": "v3.0.20",
+=======
+            "version": "v3.0.18",
+>>>>>>> 2333dda4d279fce73f722432e8b2632f43449b15
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
+<<<<<<< HEAD
                 "reference": "48c76189fb0a76a20a4a67a750b513ed06074b55"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/48c76189fb0a76a20a4a67a750b513ed06074b55",
                 "reference": "48c76189fb0a76a20a4a67a750b513ed06074b55",
+=======
+                "reference": "ac026149ffb1d3a5c893290d2d3ca8795013de08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/ac026149ffb1d3a5c893290d2d3ca8795013de08",
+                "reference": "ac026149ffb1d3a5c893290d2d3ca8795013de08",
+>>>>>>> 2333dda4d279fce73f722432e8b2632f43449b15
                 "shasum": ""
             },
             "require": {
@@ -1098,21 +1117,38 @@
                 "configuration",
                 "distribution"
             ],
+<<<<<<< HEAD
             "time": "2015-03-26 11:09:50"
         },
         {
             "name": "sensio/framework-extra-bundle",
             "version": "v3.0.6",
+=======
+            "time": "2015-02-27 12:59:18"
+        },
+        {
+            "name": "sensio/framework-extra-bundle",
+            "version": "v3.0.5",
+>>>>>>> 2333dda4d279fce73f722432e8b2632f43449b15
             "target-dir": "Sensio/Bundle/FrameworkExtraBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
+<<<<<<< HEAD
                 "reference": "1c3ed356bd1ff67cd71806efbb71511644035c85"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/1c3ed356bd1ff67cd71806efbb71511644035c85",
                 "reference": "1c3ed356bd1ff67cd71806efbb71511644035c85",
+=======
+                "reference": "a72ce75a73d86c3593eceed5650b58fd3807a0cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/a72ce75a73d86c3593eceed5650b58fd3807a0cf",
+                "reference": "a72ce75a73d86c3593eceed5650b58fd3807a0cf",
+>>>>>>> 2333dda4d279fce73f722432e8b2632f43449b15
                 "shasum": ""
             },
             "require": {
@@ -1153,7 +1189,11 @@
                 "annotations",
                 "controllers"
             ],
+<<<<<<< HEAD
             "time": "2015-03-24 15:12:07"
+=======
+            "time": "2015-02-05 07:39:23"
+>>>>>>> 2333dda4d279fce73f722432e8b2632f43449b15
         },
         {
             "name": "sensiolabs/security-checker",

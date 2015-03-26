@@ -14,8 +14,13 @@ _errors:
     resource: "@TwigBundle/Resources/config/routing/errors.xml"
     prefix:   /_error
 
+<<<<<<< HEAD
 #_main:
 #    resource: routing.yml
+=======
+_main:
+    resource: routing.yml
+>>>>>>> 2333dda4d279fce73f722432e8b2632f43449b15
 
 # AcmeDemoBundle routes (to be removed)
 _acme_demo:
