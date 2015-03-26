@@ -7,7 +7,7 @@
 
 {% block title 'Demo Bundle' %}
 
-{% block body %}
+{% block page_content %}
     {% for flashMessage in app.session.flashbag.get('notice') %}
         <div class="flash-message">
             <em>Notice</em>: {{ flashMessage }}
