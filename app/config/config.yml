@@ -71,9 +71,6 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
-<<<<<<< HEAD
 # avanzu admin them
 avanzu_admin_theme:
     bower_bin: C:\Users\Starx\AppData\Roaming\npm\bower
-=======
->>>>>>> 2333dda4d279fce73f722432e8b2632f43449b15
