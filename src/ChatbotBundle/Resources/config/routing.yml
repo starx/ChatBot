@@ -1,0 +1,3 @@
+chatbot_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ChatbotBundle:Default:index }
