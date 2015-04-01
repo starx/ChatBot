@@ -24,6 +24,7 @@ framework:
         handler_id:  ~
     fragments:       ~
     http_method_override: true
+    translator: ~
 
 # Twig Configuration
 twig:
@@ -74,3 +75,9 @@ swiftmailer:
 # avanzu admin them
 avanzu_admin_theme:
     bower_bin: C:\Users\Starx\AppData\Roaming\npm\bower
+        #java: /usr/bin/java
+#FOSUserBundle
+fos_user:
+    db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
+    firewall_name: main
+    user_class: AppBundle\Entity\User
