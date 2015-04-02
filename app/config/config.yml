@@ -74,7 +74,7 @@ swiftmailer:
     spool:     { type: memory }
 # avanzu admin them
 avanzu_admin_theme:
-    bower_bin: C:\Users\Starx\AppData\Roaming\npm\bower
+    bower_bin: "%bower_bin_path%"
         #java: /usr/bin/java
 #FOSUserBundle
 fos_user:
