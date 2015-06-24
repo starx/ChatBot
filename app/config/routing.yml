@@ -1,10 +1,12 @@
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+appplication:
+    resource: "@AppBundle/Resources/config/routing.yml"
+    prefix:   /
 chatbot:
     resource: "@ChatbotBundle/Resources/config/routing.yml"
-    prefix:   /
-
+    prefix:   /chat
 # FOSUserBundle
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"

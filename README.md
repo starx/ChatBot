@@ -19,8 +19,20 @@ composer install
 ```
 
 Install npm Components
+
+It is advised that you configure jspm with your GitHub credentials in order to avoid problems.
+
+```
+jspm registry config github
+```
+After configuing the github credentials, install the packages
 ```
 npm install
+```
+
+Now install the packages from using `jspm`
+```
+jspm install -y
 ```
 
 Run the `grunt` Command on the root

@@ -1,11 +1,10 @@
-{% extends "AvanzuAdminThemeBundle:layout:base-layout.html.twig" %}
+{% extends "AvanzuAdminThemeBundle:layout:base-avanzu.layout.html.twig" %}
 
 {% block head %}
     <link rel="icon" sizes="16x16" href="{{ asset('favicon.ico') }}" />
-    <link rel="stylesheet" href="{{ asset('bundles/acmedemo/css/demo.css') }}" />
 {% endblock %}
 
-{% block title 'User Bundle' %}
+{% block title 'Chatbot' %}
 
 {% block page_content %}
     {% for flashMessage in app.session.flashbag.get('notice') %}
@@ -13,19 +12,20 @@
             <em>Notice</em>: {{ flashMessage }}
         </div>
     {% endfor %}
-
-    {% block content_header %}
+    {% block avanzu_sidebar %}
         <ul id="menu">
             {% block content_header_more %}
-                <li><a href="{{ path('_demo') }}">Demo Home</a></li>
+                <li><a href="{{ path('_index') }}">Demo Home</a></li>
             {% endblock %}
         </ul>
+    {% endblock %}
 
+    {% block content_header %}
         <div style="clear: both"></div>
     {% endblock %}
 
     <div class="block">
-        {% block content %}{% endblock %}
+        {% block content %}hello{% endblock %}
     </div>
 
     {% if code is defined %}
