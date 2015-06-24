@@ -20,18 +20,15 @@ composer install
 
 Install npm Components
 
-It is advised that you configure jspm with your GitHub credentials in order to avoid problems.
-
-```
-jspm registry config github
-```
-After configuing the github credentials, install the packages
 ```
 npm install
 ```
+If you run into permission issues, it is better to get this fixed at this stage rather than later. To learn about how to get ownership of npm and its modules follow [this](http://competa.com/blog/2014/12/how-to-run-npm-without-sudo/) article.
 
-Now install the packages from using `jspm`
+
+Now install the packages from using `jspm`. It is advised that you configure jspm with your GitHub credentials in order to avoid problems.
 ```
+jspm registry config github
 jspm install -y
 ```
 
