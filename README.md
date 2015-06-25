@@ -2,7 +2,7 @@
 An application I want to build as a learning process for new Web Technologies. Here is what this project is going to have:
 
 * Symfony 2: Backend Framework
-* ReatPHP
+* ReactPHP: Asynchronous Library for PHP
 * Aurelia: Frontend Framework
 
 ## Pre-Requirities
