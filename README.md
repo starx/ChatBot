@@ -51,6 +51,16 @@ Install Avanzu Admin Theme
 ```
 php app/console avanzu:admin:fetch-vendor
 php app/console assets:install --symlink
+```
+
+This admin bundle used bower to manage its dependencies. So, we need to install them. Before moving to another step.
+```
+cd vendor/avanzu/admin-theme-bundle/Resources/bower/
+bower install
+```
+
+Now that we have all components required. Lets build Assests
+```
 php app/console avanzu:admin:build-assets
 ```
 
