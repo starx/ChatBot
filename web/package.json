@@ -54,10 +54,8 @@
       "aurelia-framework": "github:aurelia/framework@^0.12.0",
       "aurelia-http-client": "github:aurelia/http-client@^0.9.1",
       "aurelia-router": "github:aurelia/router@^0.9.0",
-      "bootstrap": "github:twbs/bootstrap@^3.3.4",
       "css": "github:systemjs/plugin-css@^0.1.11",
-      "font-awesome": "npm:font-awesome@^4.3.0",
-      "foundation": "github:zurb/bower-foundation@^5.0.0"
+      "font-awesome": "npm:font-awesome@^4.3.0"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.1.13",
@@ -71,6 +69,8 @@
     "child-process-promise": "~1.1.0",
     "filesize": "~3.1.2",
     "gzip-size": "^2.0.3",
-    "jspm": "~0.15.7"
+    "jspm": "~0.15.7",
+    "material-design-lite": "^1.0.0-3",
+    "material-design-icons": "^2.0.0"
   }
 }
