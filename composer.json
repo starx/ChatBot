@@ -9,6 +9,9 @@
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.6.*",
+        "react/http": "0.4.*",  
+        "react/zmq": "0.2.*|0.3.*",
+        "cboden/ratchet": "^0.3.3",
         "doctrine/orm": "~2.2,>=2.2.3,<2.5",
         "doctrine/dbal": "<2.5",
         "doctrine/doctrine-bundle": "~1.2",
@@ -19,12 +22,14 @@
         "sensio/distribution-bundle": "~3.0,>=3.0.12",
         "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
-	"react/http": "0.3.*",	
-	"avanzu/admin-theme-bundle": "~1.3",
+        "avanzu/admin-theme-bundle": "~1.3",
         "friendsofsymfony/user-bundle": "~2.0@dev"
     },
     "require-dev": {
-        "sensio/generator-bundle": "~2.3"
+        "sensio/generator-bundle": "~2.3",        
+        "phpseclib/phpseclib": "dev-master",
+        "elfet/pure": "~1.1",
+        "deployer/deployer": "^3.0"
     },
     "scripts": {
         "post-root-package-install": [

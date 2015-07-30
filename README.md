@@ -11,7 +11,7 @@ An application I want to build as a learning process for new Web Technologies. H
 * Composer
 
 ## Tools Used in this project
-* [Capifony](http://capifony.org/)
+* [Deployer](http://deployer.org/)
 * [grunt](http://gruntjs.com/getting-started)
 * [bower](http://bower.io/#install-bower)
 
@@ -62,9 +62,4 @@ bower install
 Now that we have all components required. Lets build Assests
 ```
 php app/console avanzu:admin:build-assets
-```
-
-Configure Capifony
-```
-capifony .
 ```
