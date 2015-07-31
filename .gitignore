@@ -132,3 +132,7 @@ build/Release
 ### jspm ###
 /jspm_packages
 /web/jspm_packages
+
+### Sass ###
+.sass-cache
+*.css.map
