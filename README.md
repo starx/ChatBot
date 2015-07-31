@@ -12,8 +12,7 @@ An application I want to build as a learning process for new Web Technologies. H
 
 ## Tools Used in this project
 * [Deployer](http://deployer.org/)
-* [grunt](http://gruntjs.com/getting-started)
-* [bower](http://bower.io/#install-bower)
+* [gulp](http://gulpjs.com/)
 
 ## Intallation Commands
 
@@ -37,29 +36,7 @@ jspm registry config github
 jspm install -y
 ```
 
-Run the `grunt` Command on the root
-```
-grunt
-```
-
 Install Assets
 ```
 php app/console assets:install --symlink
-```
-
-Install Avanzu Admin Theme
-```
-php app/console avanzu:admin:fetch-vendor
-php app/console assets:install --symlink
-```
-
-This admin bundle used bower to manage its dependencies. So, we need to install them. Before moving to another step.
-```
-cd vendor/avanzu/admin-theme-bundle/Resources/bower/
-bower install
-```
-
-Now that we have all components required. Lets build Assests
-```
-php app/console avanzu:admin:build-assets
 ```
