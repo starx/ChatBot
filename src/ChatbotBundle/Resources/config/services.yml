@@ -1,4 +1,7 @@
 services:
-#    chatbot.example:
-#        class: ChatbotBundle\Example
+    chatbot.message:
+        class: ChatbotBundle\Services\ChatMessageService
+    chatbot.server:
+        class: ChatbotBundle\Services\ChatServerService
+        arguments: ["@chatbot.message"]
 #        arguments: [@service_id, "plain_value", %parameter%]
