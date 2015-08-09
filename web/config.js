@@ -2,8 +2,8 @@ System.config({
   "transpiler": "traceur",
   "paths": {
     "*": "*.js",
-    "github:*": "/jspm_packages/github/*.js",
-    "npm:*": "/jspm_packages/npm/*.js"
+    "github:*": "jspm_packages/github/*.js",
+    "npm:*": "jspm_packages/npm/*.js"
   },
   "bundles": {
     "aurelia": [
@@ -263,10 +263,8 @@ System.config({
     "aurelia-framework": "github:aurelia/framework@0.12.0",
     "aurelia-http-client": "github:aurelia/http-client@0.9.1",
     "aurelia-router": "github:aurelia/router@0.9.0",
-    "bootstrap": "github:twbs/bootstrap@3.3.5",
     "css": "github:systemjs/plugin-css@0.1.13",
     "font-awesome": "npm:font-awesome@4.3.0",
-    "foundation": "github:zurb/bower-foundation@5.5.2",
     "traceur": "github:jmcriffey/bower-traceur@0.0.88",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88",
     "github:aurelia/binding@0.7.3": {
@@ -375,9 +373,6 @@ System.config({
       "process": "npm:process@0.10.1"
     },
     "github:twbs/bootstrap@3.3.5": {
-      "jquery": "github:components/jquery@2.1.4"
-    },
-    "github:zurb/bower-foundation@5.5.2": {
       "jquery": "github:components/jquery@2.1.4"
     },
     "npm:core-js@0.9.18": {
