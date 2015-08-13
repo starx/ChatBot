@@ -1,13 +1,9 @@
 import {computedFrom} from 'aurelia-framework';
-import {inject} from 'aurelia-framework';
-import {HttpClient} from 'aurelia-http-client';
 
-@inject(HttpClient)
 export class Welcome{
-  heading = 'Welcome to the Chatbot';
+  heading = 'Welcome to the Aurelia Navigation App!';
   firstName = 'John';
   lastName = 'Doe';
-  email = '';
   previousValue = this.fullName;
 
   //Getters can't be observed with Object.observe, so they must be dirty checked.
@@ -18,19 +14,9 @@ export class Welcome{
     return `${this.firstName} ${this.lastName}`;
   }
 
-  submit(){    
+  submit(){
     this.previousValue = this.fullName;
-    this.email = this.email;
-    
-    console.log(`Welcome, ${this.fullName}!`, `${this.email}`);
-    registerUser();
-  }
-
-  registerUser() {
-    url = "/chat/register/user";
-    return this.http.jsonp(url).then(response => {
-      this.images = response.content.items;
-    });    
+    alert(`Welcome, ${this.fullName}!`);
   }
 
   canDeactivate() {
