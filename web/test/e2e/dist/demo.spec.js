@@ -11,7 +11,7 @@ describe('aurelia skeleton app', function () {
     po_skeleton = new _skeletonPoJs.PageObject_Skeleton();
     po_welcome = new _welcomePoJs.PageObject_Welcome();
 
-    browser.loadAndWaitForAureliaPage('http://localhost:9000');
+    browser.loadAndWaitForAureliaPage("http://localhost:9000");
   });
 
   it('should load the page and display the initial page title', function () {
@@ -36,8 +36,8 @@ describe('aurelia skeleton app', function () {
     expect(po_welcome.openAlertDialog()).toBe(true);
   });
 
-  it('should navigate to flickr page', function () {
-    po_skeleton.navigateTo('#/flickr');
-    expect(po_skeleton.getCurrentPageTitle()).toBe('Flickr | Aurelia');
+  it('should navigate to users page', function () {
+    po_skeleton.navigateTo('#/users');
+    expect(po_skeleton.getCurrentPageTitle()).toBe('Github Users | Aurelia');
   });
 });

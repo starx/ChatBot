@@ -2,25 +2,25 @@
 <html>
   <head>
     <title>....</title>
-    <link rel="stylesheet" type="text/css" href="/jspm_packages/npm/font-awesome@4.3.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-  <body aurelia-app>
-    <div class="splash">
-      <div class="message">....</div>
-      <i class="fa fa-spinner fa-spin"></i>
+  <body>
+    <div id="app" aurelia-app="main">
+      <div class="splash">
+        <div class="message">....</div>
+        <i class="mdl-spinner mdl-js-spinner is-active"></i>
+      </div>
+      <script src="/jspm_packages/system.js"></script>
+      <script src="/config.js"></script>
+      <script>
+        System.config({
+          "paths": {
+            "*": "/dist/*.js"
+          }
+        });
+        System.import('aurelia-bootstrapper');
+      </script>
     </div>
-    <script src="/jspm_packages/system.js"></script>
-    <script src="/config.js"></script>
-    <script>
-      System.config({
-        "paths": {
-          "*": "/dist/*.js"
-        }
-      });
-      System.import('aurelia-bootstrapper');
-    </script>
   </body>
 </html>
